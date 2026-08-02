@@ -1,7 +1,23 @@
 aid: ucode
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ucode.png
 name: UCode
-description: UCode is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: UCode was a STEM coding-education company ("Where Kids Learn to Code and
+  Create") that taught kids and teens ages 6-19 software programming through classes,
+  camps, and online instruction, creating apps, websites, and games. A seed-stage
+  Bloomberg Beta portfolio company founded by Scott Mueller and Michael Yang, it is
+  marked as exited in the Bloomberg Beta Manual. As of 2026-07-21 ucode.com is a parked
+  domain listed for sale, and no API, developer, or platform surface exists to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/ucode/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,33 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: exited
+x-status-evidence:
+- 'Bloomberg Beta Manual lists UCode with the "Exited" marker (founders Scott Mueller,
+  Michael Yang): https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md'
+- 'https://ucode.com/ returned 200 but redirects to a domain-for-sale page (https://defining.com/domains/ucode/)
+  probed 2026-07-21'
+- 'Archived homepage (2017-11-13, web.archive.org): "A STEM based school that helps
+  kids achieve their highest potential through software programming classes & camps
+  where they learn to create apps, website, games"'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- STEM
+- Coding Education
+- Kids
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
