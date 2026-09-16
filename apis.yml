@@ -23,11 +23,10 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ucode.png
 name: UCode
-description: UCode was a STEM coding-education company ("Where Kids Learn to Code and
-  Create") that taught kids and teens ages 6-19 software programming through classes,
-  camps, and online instruction, creating apps, websites, and games. A seed-stage
-  Bloomberg Beta portfolio company founded by Scott Mueller and Michael Yang, it is
-  marked as exited in the Bloomberg Beta Manual. As of 2026-07-21 ucode.com is a parked
+description: UCode was a STEM coding-education company ("Where Kids Learn to Code and Create") that taught
+  kids and teens ages 6-19 software programming through classes, camps, and online instruction, creating
+  apps, websites, and games. A seed-stage Bloomberg Beta portfolio company founded by Scott Mueller and
+  Michael Yang, it is marked as exited in the Bloomberg Beta Manual. As of 2026-07-21 ucode.com is a parked
   domain listed for sale, and no API, developer, or platform surface exists to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/ucode/refs/heads/main/apis.yml
 x-type: company
@@ -36,18 +35,18 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: exited
+x-status: defunct
 x-status-evidence:
-- 'Bloomberg Beta Manual lists UCode with the "Exited" marker (founders Scott Mueller,
-  Michael Yang): https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md'
-- 'https://ucode.com/ returned 200 but redirects to a domain-for-sale page (https://defining.com/domains/ucode/)
-  probed 2026-07-21'
-- 'Archived homepage (2017-11-13, web.archive.org): "A STEM based school that helps
-  kids achieve their highest potential through software programming classes & camps
-  where they learn to create apps, website, games"'
+- 'Bloomberg Beta Manual lists UCode with the "Exited" marker (founders Scott Mueller, Michael Yang):
+  https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md'
+- https://ucode.com/ returned 200 but redirects to a domain-for-sale page (https://defining.com/domains/ucode/)
+  probed 2026-07-21
+- 'Archived homepage (2017-11-13, web.archive.org): "A STEM based school that helps kids achieve their
+  highest potential through software programming classes & camps where they learn to create apps, website,
+  games"'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Education
